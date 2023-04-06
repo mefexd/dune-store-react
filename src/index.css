@@ -114,6 +114,11 @@ button:focus {
 }
 
 /* Header */
+header {
+  background-color: #2d2d2d;
+  height: 100%;
+}
+
 .header-container {
   padding: 0.5rem;
   display: flex;
@@ -176,5 +181,15 @@ button:focus {
   .hero-items {
     display: flex;
     flex-direction: row;
+  }
+  .hide {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .large {
+    max-width: 900px;
+    margin: 0 auto;
   }
 }

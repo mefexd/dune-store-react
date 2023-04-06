@@ -1,30 +1,35 @@
 function App() {
   return (
     <div className="App">
-      <header className="header-container">
-        <a href="#">
-          <img alt="logo" src="/logo.svg" className="header-logo" />
-        </a>
-        <nav className="nav-container">
-          <div className="nav-areas">
-            <button>Mens</button>
-            <button>Womens</button>
-            <button>Shoes</button>
-            <button>Accessories</button>
-          </div>
-          <div className="nav-account">
-            <button>Log In</button>
-          </div>
-        </nav>
+      <header>
+        <div className="header-container large">
+          <a href="#">
+            <img alt="logo" src="/logo.svg" className="header-logo" />
+          </a>
+          <nav className="nav-container">
+            <div className="nav-areas">
+              <button>Mens</button>
+              <button>Womens</button>
+              <button>Shoes</button>
+              <button>Accessories</button>
+            </div>
+            <div className="nav-account">
+              <button>Log In</button>
+            </div>
+          </nav>
+        </div>
       </header>
       <main>
         <section className="main-banner">
-          <span className="banner-span">NEW HERE?</span> Get 20% off almost
-          everything* With special code:
-          <span className="banner-span"> HIFRIEND</span>
+          <div className="large">
+            <span className="banner-span">NEW HERE?</span> Get 20% off almost
+            everything* <br className="hide" />
+            Just use special code:
+            <span className="banner-span"> HIFRIEND</span>
+          </div>
         </section>
         <section className="main-hero">
-          <ul className="hero-items">
+          <ul className="hero-items large">
             <li>
               <a href="#">
                 <div className="hero-media">
