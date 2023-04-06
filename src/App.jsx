@@ -18,6 +18,11 @@ function App() {
         </nav>
       </header>
       <main>
+        <section className="main-banner">
+          <span className="banner-span">NEW HERE?</span> Get 20% off almost
+          everything* With special code:
+          <span className="banner-span"> HIFRIEND</span>
+        </section>
         <section className="main-hero">
           <ul>
             <li>Shop Mens</li>
