@@ -1,11 +1,11 @@
 function App() {
   return (
     <div className="App">
-      <header>
+      <header className="header-container">
         <a href="#">
           <img alt="logo" src="/logo.svg" className="header-logo" />
         </a>
-        <nav>
+        <nav className="nav-container">
           <div className="nav-areas">
             <button>Mens</button>
             <button>Womens</button>
