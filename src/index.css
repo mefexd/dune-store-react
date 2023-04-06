@@ -20,9 +20,12 @@ dd {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role="list"],
-ol[role="list"] {
+ul,
+ol,
+li {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Set core root defaults */
@@ -40,6 +43,11 @@ body {
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none; /* no underline */
 }
 
 /* Make images easier to work with */
@@ -134,7 +142,6 @@ button:focus {
 }
 
 /* Banner */
-
 .main-banner {
   background-color: #000;
   color: #fff;
@@ -144,4 +151,30 @@ button:focus {
 
 .banner-span {
   font-weight: bold;
+}
+
+/* Hero */
+.hero-items {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-text {
+  padding: 12px;
+}
+
+.hero-text h2 {
+  text-transform: uppercase;
+}
+
+.hero-text p {
+  padding-top: 4px;
+}
+
+@media (min-width: 600px) {
+  .hero-items {
+    display: flex;
+    flex-direction: row;
+  }
 }

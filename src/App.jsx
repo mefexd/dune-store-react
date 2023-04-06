@@ -24,9 +24,39 @@ function App() {
           <span className="banner-span"> HIFRIEND</span>
         </section>
         <section className="main-hero">
-          <ul>
-            <li>Shop Mens</li>
-            <li>Shop Womens</li>
+          <ul className="hero-items">
+            <li>
+              <a href="#">
+                <div className="hero-media">
+                  <img
+                    src="https://images.unsplash.com/flagged/photo-1567474073994-160fc6006783?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                    alt="Image link to Womens fashion"
+                    loading="lazy"
+                    className="hero-image"
+                  />
+                </div>
+                <div className="hero-text">
+                  <h2>Shop Womens</h2>
+                  <p>Explore the latest trends in womens fashion...</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div className="hero-media">
+                  <img
+                    src="https://images.unsplash.com/photo-1593757147298-e064ed1419e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                    alt="Image link to Mens fashion"
+                    loading="lazy"
+                    className="hero-image"
+                  />
+                </div>
+                <div className="hero-text">
+                  <h2>Shop Mens</h2>
+                  <p>Explore the latest trends in mens fashion...</p>
+                </div>
+              </a>
+            </li>
           </ul>
         </section>
         <section className="main-categories">
